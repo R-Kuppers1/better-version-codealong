@@ -8,4 +8,7 @@ export function multiply(a, b) {
 
 export function pick(obj, props) {
   return Object.fromEntries(props.map((prop) => [prop, obj[prop]]));
+
+  "type": "module",
+
 }
